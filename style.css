@@ -1,8 +1,29 @@
 h1{
     text-align: center;
-    font-family: serif;
+    font-family: 'Playfair Display', 'Georgia', serif;
+    font-weight: 100;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
-
+h2{
+    font-size: 15px;
+    text-align: center;
+    font-family: serif;
+    font-weight: 10;
+    margin-top: 5px;
+    margin-bottom: 100px;
+}
 body{
-    background-color: #fcf3de
+    background-color: #fcf3de;
+}
+.colour-background{
+    background-color: #ffffff; /* got some issue here the white box not showing up */
+    padding: 40px 20px;     
+    margin-bottom: 40px; 
+}
+.image-showcase{ /*cropped*/
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
 }
