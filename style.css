@@ -17,9 +17,15 @@ body{
     background-color: #fcf3de;
 }
 .colour-background{
-    background-color: #ffffff; /* got some issue here the white box not showing up */
-    padding: 40px 20px;     
-    margin-bottom: 40px; 
+    /*background-color: #ffffff; /* got some issue here the white box not showing up */
+    /*padding: 40px 20px;   */  
+    /*margin: 50px; */
+    width: 100%;
+    height: 300px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBYgQ2rCqrxH0RYF-UvskgmAOZbnOU01Bh4kXdWfrG-zUKt8hV7XCpDQdl&s=10');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .image-showcase{ /*cropped*/
     width: 250px;
